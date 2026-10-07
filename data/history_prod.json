@@ -1,0 +1,74 @@
+[
+  {
+    "id": "20260421194914",
+    "image_name": "0bc40cc3-6a85-480e-a22f-967a866a56a1___JR_FrgE.S 2784.JPG",
+    "image_url": "/static/uploads/20260421194914_0bc40cc3-6a85-480e-a22f-967a866a56a1___JR_FrgE.S 2784.JPG",
+    "date_analyse": "21/04/2026 19:49",
+    "prediction": {
+      "class_name": "Pepper,_bell___Bacterial_spot",
+      "plant": "Pepper,_bell",
+      "disease": "Bacterial_spot",
+      "is_healthy": false,
+      "confidence": 84.11
+    },
+    "recommendation": {
+      "resume": "La plante Pepper,_bell présente une tache bactérienne, une affection qui se propage rapidement en milieu humide.",
+      "causes": [
+        "Humidité élevée",
+        "Contamination bactérienne par éclaboussures",
+        "Manipulation de plantes mouillées"
+      ],
+      "traitement_organique": {
+        "nom": "Traitement à base de cuivre homologué en agriculture biologique",
+        "prix_estime": 21
+      },
+      "traitement_chimique": {
+        "nom": "Bactéricide spécialisé",
+        "prix_estime": 39
+      },
+      "application": "Pulvériser tôt le matin sur feuillage sec et répéter selon l’intensité des symptômes.",
+      "duree": "10 à 15 jours",
+      "conseils": [
+        "Limiter les éclaboussures d’eau.",
+        "Désinfecter les outils de coupe.",
+        "Éviter de manipuler les feuilles humides."
+      ]
+    }
+  },
+  {
+    "id": "20260421215505",
+    "image_name": "0ebea6f4-08e4-4380-86f8-34d854697e32___JR_FrgE.S 2877.JPG",
+    "image_url": "/static/uploads/20260421215505_0ebea6f4-08e4-4380-86f8-34d854697e32___JR_FrgE.S 2877.JPG",
+    "date_analyse": "21/04/2026 21:55",
+    "prediction": {
+      "class_name": "Apple___Black_rot",
+      "plant": "Apple",
+      "disease": "Black_rot",
+      "is_healthy": false,
+      "confidence": 98.34
+    },
+    "recommendation": {
+      "resume": "La plante Apple présente la maladie Black_rot.",
+      "causes": [
+        "Conditions environnementales favorables au pathogène",
+        "Stress physiologique de la plante",
+        "Présence d’agents infectieux sur le feuillage ou le sol"
+      ],
+      "traitement_organique": {
+        "nom": "Traitement organique ciblé selon le type de maladie",
+        "prix_estime": 18
+      },
+      "traitement_chimique": {
+        "nom": "Traitement chimique homologué selon la pathologie",
+        "prix_estime": 36
+      },
+      "application": "Appliquer selon l’état sanitaire observé et répéter suivant la progression des symptômes.",
+      "duree": "1 à 3 semaines",
+      "conseils": [
+        "Réduire l’humidité sur le feuillage.",
+        "Retirer les parties très atteintes.",
+        "Maintenir une bonne hygiène culturale."
+      ]
+    }
+  }
+]

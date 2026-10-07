@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plant Cure</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    .page-view { display: none; }
+    .page-view.active { display: block; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">
+        <img src="/static/logo.png" alt="Plant Cure">
+      </div>
+      <span>Plant Cure</span>
+    </div>
+
+    <nav class="nav">
+      <a href="#" onclick="showPage('main')">Tableau de bord</a>
+      <a href="#" onclick="showPage('main'); setTimeout(() => document.getElementById('actions').scrollIntoView({ behavior: 'smooth' }), 100)">Actions rapides</a>
+      <a href="#" onclick="showPage('diagnostic')">Diagnostic</a>
+      <a href="#" onclick="showPage('historique')">Historique</a>
+    </nav>
+  </header>
+
+  <!-- PAGE PRINCIPALE -->
+  <div id="page-main" class="page-view active">
+    <main class="page">
+
+      <section class="hero">
+        <div class="hero-overlay">
+          <h1>Détection des maladies et recommandations adaptées à vos plantes</h1>
+          <p class="hero-sub">
+            Analysez vos plantes, identifiez les maladies et comparez des solutions
+            organiques et chimiques dans une interface claire et professionnelle.
+          </p>
+        </div>
+      </section>
+
+      <section id="dashboard" class="section">
+        <div class="section-head">
+          <h2>Vue d'ensemble</h2>
+          <p>Indicateurs globaux basés sur toutes les analyses enregistrées</p>
+        </div>
+
+        <div class="stats-grid">
+          <article class="stat-card">
+            <div class="stat-top">
+              <div class="stat-icon icon-money">
+                <i data-lucide="badge-dollar-sign"></i>
+              </div>
+            </div>
+            <div class="stat-value" id="statEconomies">32 TND</div>
+            <div class="stat-label">Économies totales grâce aux solutions organiques</div>
+          </article>
+
+          <article class="stat-card">
+            <div class="stat-top">
+              <div class="stat-icon icon-total">
+                <i data-lucide="scan-search"></i>
+              </div>
+            </div>
+            <div class="stat-value" id="statTotal">3</div>
+            <div class="stat-label">Nombre total de diagnostics effectués</div>
+          </article>
+
+          <article class="stat-card">
+            <div class="stat-top">
+              <div class="stat-icon icon-healthy">
+                <i data-lucide="sprout"></i>
+              </div>
+            </div>
+            <div class="stat-value" id="statHealthy">1</div>
+            <div class="stat-label">Plantes saines détectées</div>
+          </article>
+
+          <article class="stat-card">
+            <div class="stat-top">
+              <div class="stat-icon icon-diseased">
+                <i data-lucide="shield-alert"></i>
+              </div>
+            </div>
+            <div class="stat-value" id="statDiseased">2</div>
+            <div class="stat-label">Plantes malades détectées</div>
+          </article>
+        </div>
+      </section>
+
+      <section id="actions" class="section">
+        <div class="section-head">
+          <h2>Actions rapides</h2>
+          <p>Accéder directement aux principales fonctionnalités</p>
+        </div>
+
+        <div class="quick-grid">
+          <a class="quick-card" href="#" onclick="showPage('diagnostic')">
+            <div class="quick-icon">
+              <i data-lucide="search"></i>
+            </div>
+            <h3>Lancer un diagnostic</h3>
+            <p>Importer une image et obtenir une analyse détaillée.</p>
+          </a>
+
+          <a class="quick-card" href="#" onclick="showPage('historique')">
+            <div class="quick-icon">
+              <i data-lucide="history"></i>
+            </div>
+            <h3>Consulter l'historique</h3>
+            <p>Afficher les analyses précédentes avec aperçu visuel.</p>
+          </a>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- PAGE DIAGNOSTIC -->
+  <div id="page-diagnostic" class="page-view">
+    <main class="page">
+      <section class="section">
+        <div class="section-head">
+          <h2>Diagnostic</h2>
+          <p>Importer une image pour lancer l'analyse</p>
+        </div>
+
+        <div class="diagnostic-layout">
+          <div class="upload-panel">
+            <label class="upload-box">
+              <input type="file" id="fileInput" accept="image/*" />
+              <span>Sélectionner une image de feuille ou de plante</span>
+            </label>
+
+            <div id="previewBox" class="preview-box"></div>
+
+            <button id="analyzeBtn" class="primary-btn">Analyser la plante</button>
+          </div>
+
+          <div id="resultBox" class="result-panel">
+            <div class="empty-state">
+              Le résultat du diagnostic apparaîtra ici après l'analyse.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- PAGE HISTORIQUE -->
+  <div id="page-historique" class="page-view">
+    <main class="page">
+      <section class="section">
+        <div class="section-head">
+          <h2>Historique</h2>
+          <p>Dernières analyses enregistrées</p>
+        </div>
+
+        <div id="historyList" class="history-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/static/app.js"></script>
+  <script>
+    function showPage(name) {
+      document.querySelectorAll('.page-view').forEach((page) => {
+        page.classList.remove('active');
+      });
+
+      document.getElementById('page-' + name).classList.add('active');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+      if (name === 'historique' && typeof loadHistory === 'function') {
+        loadHistory();
+      }
+
+      if (window.lucide) {
+        lucide.createIcons();
+      }
+    }
+
+    if (window.lucide) {
+      lucide.createIcons();
+    }
+  </script>
+</body>
+</html>

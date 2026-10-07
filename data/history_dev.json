@@ -1,0 +1,38 @@
+[
+  {
+    "id": "20260421194638",
+    "image_name": "0bc40cc3-6a85-480e-a22f-967a866a56a1___JR_FrgE.S 2784.JPG",
+    "image_url": "/static/uploads/20260421194638_0bc40cc3-6a85-480e-a22f-967a866a56a1___JR_FrgE.S 2784.JPG",
+    "date_analyse": "21/04/2026 19:46",
+    "prediction": {
+      "class_name": "Pepper,_bell___Bacterial_spot",
+      "plant": "Pepper,_bell",
+      "disease": "Bacterial_spot",
+      "is_healthy": false,
+      "confidence": 84.11
+    },
+    "recommendation": {
+      "resume": "La plante Pepper,_bell présente une tache bactérienne, une affection qui se propage rapidement en milieu humide.",
+      "causes": [
+        "Humidité élevée",
+        "Contamination bactérienne par éclaboussures",
+        "Manipulation de plantes mouillées"
+      ],
+      "traitement_organique": {
+        "nom": "Traitement à base de cuivre homologué en agriculture biologique",
+        "prix_estime": 21
+      },
+      "traitement_chimique": {
+        "nom": "Bactéricide spécialisé",
+        "prix_estime": 39
+      },
+      "application": "Pulvériser tôt le matin sur feuillage sec et répéter selon l’intensité des symptômes.",
+      "duree": "10 à 15 jours",
+      "conseils": [
+        "Limiter les éclaboussures d’eau.",
+        "Désinfecter les outils de coupe.",
+        "Éviter de manipuler les feuilles humides."
+      ]
+    }
+  }
+]

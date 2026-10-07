@@ -1,0 +1,15 @@
+﻿venv/
+.venv/
+env/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.idea/
+.vscode/
+*.log
+
+.env
+.env.*
+**/backend-secret.yaml
+frontend/static/uploads/

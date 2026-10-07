@@ -1,0 +1,45 @@
+services:
+# Container 1 : Frontend (Nginx)
+  frontend:
+    build: ./frontend
+    container_name: plant_cure_frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - plant_cure_net
+# Container 2 : Backend
+  backend:
+    build: .
+    container_name: plant_cure_backend
+    expose:
+      - "8000"
+    depends_on:
+      - model_service
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_MODEL=${OPENAI_MODEL}
+      - MODEL_SERVICE_URL=${MODEL_SERVICE_URL}
+      - JSON_PATH=${JSON_PATH}
+      - ENV=${ENV}
+      - DEBUG=${DEBUG}
+    volumes:
+      - ./data:/app/data
+      - ./static/uploads:/app/static/uploads
+    networks:
+      - plant_cure_net
+# Container 3 : Model Service
+  model_service:
+    build: ./model_service
+    container_name: plant_cure_model
+    expose:
+      - "8001"
+    volumes:
+      - ./model:/app/model:ro
+    networks:
+      - plant_cure_net
+
+networks:
+  plant_cure_net:
+    driver: bridge

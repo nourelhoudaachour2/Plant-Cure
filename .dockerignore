@@ -1,0 +1,25 @@
+# Secrets / env
+.env
+.env.dev
+.env.test
+.env.prod
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+venv/
+env/
+
+# Modèle lourd
+
+
+# Logs
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store

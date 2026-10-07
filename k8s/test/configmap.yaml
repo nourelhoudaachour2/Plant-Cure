@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  namespace: test
+data:
+  MODEL_SERVICE_URL: "http://model-service:8001"
+  JSON_PATH: "/app/data/history_test.json"
+  ENV: "test"
+  DEBUG: "true"

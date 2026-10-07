@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress # ressource de type ingress
+metadata:
+  name: frontend-ingress
+  namespace: dev
+  annotations:
+    kubernetes.io/ingress.class: "gce" 
+    #L’Ingress va automatiquement créer un Load Balancer externe sur GCP
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /*
+            pathType: ImplementationSpecific # tout les chemin ma9boulin
+            backend:
+              service:
+                name: frontend
+                port:
+                  number: 80

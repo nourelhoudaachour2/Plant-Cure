@@ -1,0 +1,390 @@
+[
+  {
+    "id": "20260408185433",
+    "image_name": "0f514b75-2c74-4075-b9c7-5d469ab292ba___Com.G_SpM_FL 1205.JPG",
+    "image_url": "/static/uploads/20260408185433_0f514b75-2c74-4075-b9c7-5d469ab292ba___Com.G_SpM_FL 1205.JPG",
+    "date_analyse": "08/04/2026 18:54",
+    "prediction": {
+      "class_name": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "plant": "Tomato",
+      "disease": "Spider_mites Two-spotted_spider_mite",
+      "is_healthy": false,
+      "confidence": 85.47
+    },
+    "recommendation": {
+      "resume": "La plante Tomato présente la maladie Spider_mites Two-spotted_spider_mite.",
+      "causes": [
+        "Conditions environnementales favorables au pathogène",
+        "Stress physiologique de la plante",
+        "Présence d’agents infectieux sur le feuillage ou le sol"
+      ],
+      "traitement_organique": {
+        "nom": "Traitement organique ciblé selon le type de maladie",
+        "prix_estime": 18
+      },
+      "traitement_chimique": {
+        "nom": "Traitement chimique homologué selon la pathologie",
+        "prix_estime": 36
+      },
+      "application": "Appliquer selon l’état sanitaire observé et répéter suivant la progression des symptômes.",
+      "duree": "1 à 3 semaines",
+      "conseils": [
+        "Réduire l’humidité sur le feuillage.",
+        "Retirer les parties très atteintes.",
+        "Maintenir une bonne hygiène culturale."
+      ]
+    }
+  },
+  {
+    "id": "20260408185524",
+    "image_name": "0c651f2e-6c35-49d9-9e4d-3c853b271610___UMD_Powd.M 0509.JPG",
+    "image_url": "/static/uploads/20260408185524_0c651f2e-6c35-49d9-9e4d-3c853b271610___UMD_Powd.M 0509.JPG",
+    "date_analyse": "08/04/2026 18:55",
+    "prediction": {
+      "class_name": "Squash___Powdery_mildew",
+      "plant": "Squash",
+      "disease": "Powdery_mildew",
+      "is_healthy": false,
+      "confidence": 99.17
+    },
+    "recommendation": {
+      "resume": "La plante Squash présente un oïdium, visible sous forme de feutrage blanchâtre sur les feuilles.",
+      "causes": [
+        "Atmosphère chaude et humide",
+        "Faible circulation d’air",
+        "Densité excessive de feuillage"
+      ],
+      "traitement_organique": {
+        "nom": "Solution au soufre ou bicarbonate adaptée à l’oïdium",
+        "prix_estime": 17
+      },
+      "traitement_chimique": {
+        "nom": "Fongicide anti-oïdium",
+        "prix_estime": 31
+      },
+      "application": "Appliquer sur les zones atteintes tous les 4 à 6 jours jusqu’à amélioration visible.",
+      "duree": "1 à 2 semaines",
+      "conseils": [
+        "Aérer davantage la culture.",
+        "Retirer les feuilles très contaminées.",
+        "Réduire l’humidité ambiante."
+      ]
+    }
+  },
+  {
+    "id": "20260408213937",
+    "image_name": "1bc672d8-2546-4f01-9482-a97e0d6cc345___Mary_HL 9303.JPG",
+    "image_url": "/static/uploads/20260408213937_1bc672d8-2546-4f01-9482-a97e0d6cc345___Mary_HL 9303.JPG",
+    "date_analyse": "08/04/2026 21:39",
+    "prediction": {
+      "class_name": "Raspberry___healthy",
+      "plant": "Raspberry",
+      "disease": "healthy",
+      "is_healthy": true,
+      "confidence": 94.62
+    },
+    "recommendation": {
+      "resume": "La plante Raspberry est saine et ne présente pas de signe pathologique visible.",
+      "causes": [],
+      "traitement_organique": {
+        "nom": "Compost naturel et biostimulant végétal",
+        "prix_estime": 14
+      },
+      "traitement_chimique": {
+        "nom": "Aucun traitement chimique nécessaire",
+        "prix_estime": 0
+      },
+      "application": "Appliquer un entretien régulier avec un arrosage modéré, une bonne exposition à la lumière et un enrichissement organique du sol.",
+      "duree": "Entretien continu",
+      "conseils": [
+        "Surveiller les feuilles chaque semaine.",
+        "Éviter l’excès d’arrosage.",
+        "Favoriser une bonne aération autour de la plante."
+      ]
+    }
+  },
+  {
+    "id": "20260408235210",
+    "image_name": "0b13b997-9957-4029-b2a4-ef4a046eb088___UF.GRC_BS_Lab Leaf 0595.JPG",
+    "image_url": "/static/uploads/20260408235210_0b13b997-9957-4029-b2a4-ef4a046eb088___UF.GRC_BS_Lab Leaf 0595.JPG",
+    "date_analyse": "08/04/2026 23:52",
+    "prediction": {
+      "class_name": "Tomato___Bacterial_spot",
+      "plant": "Tomato",
+      "disease": "Bacterial_spot",
+      "is_healthy": false,
+      "confidence": 99.8
+    },
+    "recommendation": {
+      "resume": "La plante Tomato présente une tache bactérienne, une affection qui se propage rapidement en milieu humide.",
+      "causes": [
+        "Humidité élevée",
+        "Contamination bactérienne par éclaboussures",
+        "Manipulation de plantes mouillées"
+      ],
+      "traitement_organique": {
+        "nom": "Traitement à base de cuivre homologué en agriculture biologique",
+        "prix_estime": 21
+      },
+      "traitement_chimique": {
+        "nom": "Bactéricide spécialisé",
+        "prix_estime": 39
+      },
+      "application": "Pulvériser tôt le matin sur feuillage sec et répéter selon l’intensité des symptômes.",
+      "duree": "10 à 15 jours",
+      "conseils": [
+        "Limiter les éclaboussures d’eau.",
+        "Désinfecter les outils de coupe.",
+        "Éviter de manipuler les feuilles humides."
+      ]
+    }
+  },
+  {
+    "id": "20260412172427",
+    "image_name": "0bb4cbce-0e68-49a0-93d0-26c9635528ec___Rutg._Bact.S 2249.JPG",
+    "image_url": "/static/uploads/20260412172427_0bb4cbce-0e68-49a0-93d0-26c9635528ec___Rutg._Bact.S 2249.JPG",
+    "date_analyse": "12/04/2026 17:24",
+    "prediction": {
+      "class_name": "Peach___Bacterial_spot",
+      "plant": "Peach",
+      "disease": "Bacterial_spot",
+      "is_healthy": false,
+      "confidence": 100.0
+    },
+    "recommendation": {
+      "resume": "La plante Peach présente une tache bactérienne, une affection qui se propage rapidement en milieu humide.",
+      "causes": [
+        "Humidité élevée",
+        "Contamination bactérienne par éclaboussures",
+        "Manipulation de plantes mouillées"
+      ],
+      "traitement_organique": {
+        "nom": "Traitement à base de cuivre homologué en agriculture biologique",
+        "prix_estime": 21
+      },
+      "traitement_chimique": {
+        "nom": "Bactéricide spécialisé",
+        "prix_estime": 39
+      },
+      "application": "Pulvériser tôt le matin sur feuillage sec et répéter selon l’intensité des symptômes.",
+      "duree": "10 à 15 jours",
+      "conseils": [
+        "Limiter les éclaboussures d’eau.",
+        "Désinfecter les outils de coupe.",
+        "Éviter de manipuler les feuilles humides."
+      ]
+    }
+  },
+  {
+    "id": "20260420210658",
+    "image_name": "0bc40cc3-6a85-480e-a22f-967a866a56a1___JR_FrgE.S 2784.JPG",
+    "image_url": "/static/uploads/20260420210658_0bc40cc3-6a85-480e-a22f-967a866a56a1___JR_FrgE.S 2784.JPG",
+    "date_analyse": "20/04/2026 21:06",
+    "prediction": {
+      "class_name": "Pepper,_bell___Bacterial_spot",
+      "plant": "Pepper,_bell",
+      "disease": "Bacterial_spot",
+      "is_healthy": false,
+      "confidence": 84.11
+    },
+    "recommendation": {
+      "resume": "La plante Pepper,_bell présente une tache bactérienne, une affection qui se propage rapidement en milieu humide.",
+      "causes": [
+        "Humidité élevée",
+        "Contamination bactérienne par éclaboussures",
+        "Manipulation de plantes mouillées"
+      ],
+      "traitement_organique": {
+        "nom": "Traitement à base de cuivre homologué en agriculture biologique",
+        "prix_estime": 21
+      },
+      "traitement_chimique": {
+        "nom": "Bactéricide spécialisé",
+        "prix_estime": 39
+      },
+      "application": "Pulvériser tôt le matin sur feuillage sec et répéter selon l’intensité des symptômes.",
+      "duree": "10 à 15 jours",
+      "conseils": [
+        "Limiter les éclaboussures d’eau.",
+        "Désinfecter les outils de coupe.",
+        "Éviter de manipuler les feuilles humides."
+      ]
+    }
+  },
+  {
+    "id": "20260420214844",
+    "image_name": "00e909aa-e3ae-4558-9961-336bb0f35db3___JR_FrgE.S 8593.JPG",
+    "image_url": "/static/uploads/20260420214844_00e909aa-e3ae-4558-9961-336bb0f35db3___JR_FrgE.S 8593.JPG",
+    "date_analyse": "20/04/2026 21:48",
+    "prediction": {
+      "class_name": "Apple___Black_rot",
+      "plant": "Apple",
+      "disease": "Black_rot",
+      "is_healthy": false,
+      "confidence": 88.66
+    },
+    "recommendation": {
+      "resume": "La plante Apple présente la maladie Black_rot.",
+      "causes": [
+        "Conditions environnementales favorables au pathogène",
+        "Stress physiologique de la plante",
+        "Présence d’agents infectieux sur le feuillage ou le sol"
+      ],
+      "traitement_organique": {
+        "nom": "Traitement organique ciblé selon le type de maladie",
+        "prix_estime": 18
+      },
+      "traitement_chimique": {
+        "nom": "Traitement chimique homologué selon la pathologie",
+        "prix_estime": 36
+      },
+      "application": "Appliquer selon l’état sanitaire observé et répéter suivant la progression des symptômes.",
+      "duree": "1 à 3 semaines",
+      "conseils": [
+        "Réduire l’humidité sur le feuillage.",
+        "Retirer les parties très atteintes.",
+        "Maintenir une bonne hygiène culturale."
+      ]
+    }
+  },
+  {
+    "id": "20260421151426",
+    "image_name": "RS_Rust 1575.JPG",
+    "image_url": "/static/uploads/20260421151426_RS_Rust 1575.JPG",
+    "date_analyse": "21/04/2026 15:14",
+    "prediction": {
+      "class_name": "Corn_(maize)___Common_rust_",
+      "plant": "Corn_(maize)",
+      "disease": "Common_rust_",
+      "is_healthy": false,
+      "confidence": 100.0
+    },
+    "recommendation": {
+      "resume": "La plante Corn_(maize) présente la maladie Common_rust_.",
+      "causes": [
+        "Conditions environnementales favorables au pathogène",
+        "Stress physiologique de la plante",
+        "Présence d’agents infectieux sur le feuillage ou le sol"
+      ],
+      "traitement_organique": {
+        "nom": "Traitement organique ciblé selon le type de maladie",
+        "prix_estime": 18
+      },
+      "traitement_chimique": {
+        "nom": "Traitement chimique homologué selon la pathologie",
+        "prix_estime": 36
+      },
+      "application": "Appliquer selon l’état sanitaire observé et répéter suivant la progression des symptômes.",
+      "duree": "1 à 3 semaines",
+      "conseils": [
+        "Réduire l’humidité sur le feuillage.",
+        "Retirer les parties très atteintes.",
+        "Maintenir une bonne hygiène culturale."
+      ]
+    }
+  },
+  {
+    "id": "20260421151430",
+    "image_name": "RS_Rust 1575.JPG",
+    "image_url": "/static/uploads/20260421151430_RS_Rust 1575.JPG",
+    "date_analyse": "21/04/2026 15:14",
+    "prediction": {
+      "class_name": "Corn_(maize)___Common_rust_",
+      "plant": "Corn_(maize)",
+      "disease": "Common_rust_",
+      "is_healthy": false,
+      "confidence": 100.0
+    },
+    "recommendation": {
+      "resume": "La plante Corn_(maize) présente la maladie Common_rust_.",
+      "causes": [
+        "Conditions environnementales favorables au pathogène",
+        "Stress physiologique de la plante",
+        "Présence d’agents infectieux sur le feuillage ou le sol"
+      ],
+      "traitement_organique": {
+        "nom": "Traitement organique ciblé selon le type de maladie",
+        "prix_estime": 18
+      },
+      "traitement_chimique": {
+        "nom": "Traitement chimique homologué selon la pathologie",
+        "prix_estime": 36
+      },
+      "application": "Appliquer selon l’état sanitaire observé et répéter suivant la progression des symptômes.",
+      "duree": "1 à 3 semaines",
+      "conseils": [
+        "Réduire l’humidité sur le feuillage.",
+        "Retirer les parties très atteintes.",
+        "Maintenir une bonne hygiène culturale."
+      ]
+    }
+  },
+  {
+    "id": "20260421151754",
+    "image_name": "0a334ae6-bea3-4453-b200-85e082794d56___GH_HL Leaf 310.1.JPG",
+    "image_url": "/static/uploads/20260421151754_0a334ae6-bea3-4453-b200-85e082794d56___GH_HL Leaf 310.1.JPG",
+    "date_analyse": "21/04/2026 15:17",
+    "prediction": {
+      "class_name": "Tomato___healthy",
+      "plant": "Tomato",
+      "disease": "healthy",
+      "is_healthy": true,
+      "confidence": 78.54
+    },
+    "recommendation": {
+      "resume": "La plante Tomato est saine et ne présente pas de signe pathologique visible.",
+      "causes": [],
+      "traitement_organique": {
+        "nom": "Compost naturel et biostimulant végétal",
+        "prix_estime": 14
+      },
+      "traitement_chimique": {
+        "nom": "Aucun traitement chimique nécessaire",
+        "prix_estime": 0
+      },
+      "application": "Appliquer un entretien régulier avec un arrosage modéré, une bonne exposition à la lumière et un enrichissement organique du sol.",
+      "duree": "Entretien continu",
+      "conseils": [
+        "Surveiller les feuilles chaque semaine.",
+        "Éviter l’excès d’arrosage.",
+        "Favoriser une bonne aération autour de la plante."
+      ]
+    }
+  },
+  {
+    "id": "20260421194214",
+    "image_name": "0b8dabb7-5f1b-4fdc-b3fa-30b289707b90___JR_FrgE.S 3047.JPG",
+    "image_url": "/static/uploads/20260421194214_0b8dabb7-5f1b-4fdc-b3fa-30b289707b90___JR_FrgE.S 3047.JPG",
+    "date_analyse": "21/04/2026 19:42",
+    "prediction": {
+      "class_name": "Apple___Black_rot",
+      "plant": "Apple",
+      "disease": "Black_rot",
+      "is_healthy": false,
+      "confidence": 95.5
+    },
+    "recommendation": {
+      "resume": "La plante Apple présente la maladie Black_rot.",
+      "causes": [
+        "Conditions environnementales favorables au pathogène",
+        "Stress physiologique de la plante",
+        "Présence d’agents infectieux sur le feuillage ou le sol"
+      ],
+      "traitement_organique": {
+        "nom": "Traitement organique ciblé selon le type de maladie",
+        "prix_estime": 18
+      },
+      "traitement_chimique": {
+        "nom": "Traitement chimique homologué selon la pathologie",
+        "prix_estime": 36
+      },
+      "application": "Appliquer selon l’état sanitaire observé et répéter suivant la progression des symptômes.",
+      "duree": "1 à 3 semaines",
+      "conseils": [
+        "Réduire l’humidité sur le feuillage.",
+        "Retirer les parties très atteintes.",
+        "Maintenir une bonne hygiène culturale."
+      ]
+    }
+  }
+]
